@@ -1,0 +1,140 @@
+.container {
+    background-color: #111111;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    // min-height: 100vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container h1 {
+    font-size: 1.875rem;
+    /* 30px */
+    margin-bottom: 64px;
+}
+
+.plans-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 1120px;
+    padding: 0 16px;
+}
+
+@media (min-width: 640px) {
+    .plans-container {
+        flex-direction: row;
+        padding: 0;
+    }
+}
+
+.plan-card {
+    background-color: #222222;
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    /* increased width */
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.plan-card.selected {
+    border-color: #4ade80;
+    /* green-400 */
+}
+
+.plan-title {
+    font-size: 1.25rem;
+    /* 20px */
+    margin-bottom: 16px;
+    color: white;
+}
+
+.price {
+    font-weight: 800;
+    font-size: 2.25rem;
+    /* 36px */
+    color: #4ade80;
+    display: inline;
+}
+
+.per-month {
+    font-weight: 600;
+    font-size: 1.125rem;
+    /* 18px */
+    color: #6b7280;
+    /* gray-500 */
+    margin-left: 4px;
+}
+
+ul.features-list {
+    margin-top: 32px;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    color: #9ca3af;
+    /* gray-400 */
+    font-size: 1rem;
+    /* 16px */
+    line-height: 1.5;
+}
+
+ul.features-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+ul.features-list li:last-child {
+    margin-bottom: 0;
+}
+
+ul.features-list li::before {
+    // content: "\f058";
+    /* FontAwesome check-circle */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #4ade80;
+    font-size: 1.125rem;
+    /* 18px */
+    display: inline-block;
+    line-height: 1;
+}
+
+button.select-btn {
+    margin-top: 48px;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    color: white;
+    background-color: #333333;
+}
+
+button.select-btn:hover {
+    background-color: #444444;
+}
+
+.plan-card.selected button.select-btn {
+    background-color: #4ade80;
+    color: black;
+}
+
+.plan-card.selected button.select-btn:hover {
+    background-color: #22c55e;
+    /* darker green */
+}

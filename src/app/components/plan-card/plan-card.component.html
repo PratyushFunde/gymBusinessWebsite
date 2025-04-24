@@ -1,0 +1,52 @@
+
+
+<div class="container" role="main ">
+    <h1>Choose Your Plan</h1>
+    <div class="plans-container">
+        <div class="plan-card" *ngFor="let plan of plans"
+            (click)="onPlanSelect(plan.id)"
+            [ngClass]="{'selected':selectedPlanId===plan.id}">
+            <h2 class="plan-title">{{plan.planName}}</h2>
+            <p>
+                <span class="price">${{plan.price}}</span><span
+                    class="per-month">/month</span>
+            </p>
+            <ul class="features-list">
+                <li *ngFor="let f of plan.features">✔️ {{f}}</li>
+            </ul>
+            <button class="select-btn" type="button"
+                (click)="onProceed()">{{selectedPlanId==plan.id ?
+                'Proceed' : 'Select Plan'}} </button>
+        </div>
+
+        <!-- <div class="plan-card selected">
+            <h2 class="plan-title">Premium Plan</h2>
+            <p>
+                <span class="price">$89</span><span
+                    class="per-month">/month</span>
+            </p>
+            <ul class="features-list">
+                <li>All Basic features</li>
+                <li>Group classes</li>
+                <li>Personal trainer</li>
+                <li>Nutrition advice</li>
+            </ul>
+            <button class="select-btn" type="button">Select Plan</button>
+        </div>
+
+        <div class="plan-card">
+            <h2 class="plan-title">Elite Plan</h2>
+            <p>
+                <span class="price">$129</span><span
+                    class="per-month">/month</span>
+            </p>
+            <ul class="features-list">
+                <li>All Premium features</li>
+                <li>Private sessions</li>
+                <li>Spa access</li>
+                <li>VIP lounge</li>
+            </ul>
+            <button class="select-btn" type="button">Select Plan</button>
+        </div> -->
+    </div>
+</div>

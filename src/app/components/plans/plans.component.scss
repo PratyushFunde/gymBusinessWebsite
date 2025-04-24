@@ -1,0 +1,62 @@
+.payment {
+    display: flex;
+    flex-direction: column;
+    /* Stack children vertically */
+    align-items: center;
+    // height: 100vh;
+    flex: 1;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cancel-button {
+
+    background-color: rgb(232, 52, 52);
+    /* Use bg-green color */
+    color: white;
+    /* Text color for the button */
+    border: none;
+    /* Remove default border */
+    padding: 10px 20px;
+    /* Padding for the button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+.cancel-button:hover {
+    background-color: rgb(231, 14, 14);
+    /* Darker shade on hover */
+}
+
+.complete-button {
+
+    background-color: #25AB75;
+    /* Use bg-green color */
+    color: white;
+    /* Text color for the button */
+    border: none;
+    /* Remove default border */
+    padding: 10px 20px;
+    /* Padding for the button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+.complete-button:hover {
+    background-color: #1be996;
+    /* Darker shade on hover */
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+
+}

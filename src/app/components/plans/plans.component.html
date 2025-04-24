@@ -1,0 +1,32 @@
+<div class="main">
+    <div class="navbar">
+
+        <app-navbar></app-navbar>
+    </div>
+
+    <div class="card-container">
+
+        <div class="payment" *ngIf="selectedPlan>0">
+
+            <app-payment></app-payment>
+            <button class="cancel-button" (click)="onCancel()">Cancel</button>
+            <button class="complete-button"
+                (click)="onComplete()">Complete</button>
+        </div>
+
+        <div class="memberships" *ngIf="!success">
+
+            <ng-container>
+
+                <app-plan-card *ngIf="selectedPlan<=0"
+                    (selectedPlan)="onPlanSelected($event)"></app-plan-card>
+            </ng-container>
+        </div>
+
+        <div class="success" *ngIf="success">
+            <app-success></app-success>
+        </div>
+
+    </div>
+
+</div>

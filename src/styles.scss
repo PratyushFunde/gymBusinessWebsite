@@ -1,1 +1,130 @@
 /* You can add global styles to this file, and also import other style files */
+/* Border Classes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #000000;
+}
+
+.bd1 {
+    border: 2px solid #e74c3c;
+}
+
+/* red-ish */
+.bd2 {
+    border: 2px solid #8e44ad;
+}
+
+/* purple */
+.bd3 {
+    border: 2px solid #3498db;
+}
+
+/* blue */
+.bd4 {
+    border: 2px solid #27ae60;
+}
+
+/* green */
+.bd5 {
+    border: 2px solid #f39c12;
+}
+
+/* orange */
+.bd6 {
+    border: 2px solid #2c3e50;
+}
+
+/* dark blue */
+.bd7 {
+    border: 2px solid #1abc9c;
+}
+
+/* turquoise */
+.bd8 {
+    border: 2px solid #e67e22;
+}
+
+/* carrot */
+.bd9 {
+    border: 2px solid #9b59b6;
+}
+
+/* amethyst */
+.bd10 {
+    border: 2px solid #34495e;
+}
+
+/* midnight blue */
+
+/* Background Classes */
+.bg1 {
+    background-color: #f1c40f;
+}
+
+/* yellow */
+.bg2 {
+    background-color: #e84393;
+}
+
+/* pink */
+.bg3 {
+    background-color: #00cec9;
+}
+
+/* cyan */
+.bg4 {
+    background-color: #fd79a8;
+}
+
+/* light pink */
+.bg5 {
+    background-color: #55efc4;
+}
+
+/* mint */
+.bg6 {
+    background-color: #74b9ff;
+}
+
+/* sky blue */
+.bg7 {
+    background-color: #fab1a0;
+}
+
+/* light coral */
+.bg8 {
+    background-color: #a29bfe;
+}
+
+/* light purple */
+.bg9 {
+    background-color: #ffeaa7;
+}
+
+/* pale yellow */
+.bg10 {
+    background-color: #81ecec;
+}
+
+/* aqua */
+
+.bg-primary {
+    background-color: #000000;
+}
+
+.bg-secondary {
+    background-color: #191919;
+}
+
+.bg-green {
+    background-color: #25AB75;
+}

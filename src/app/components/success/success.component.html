@@ -1,0 +1,16 @@
+<div class="container bg-primary">
+    <div class="icon bg-green">
+        <div class="checkmark">&#10003;</div>
+    </div>
+    <h1>Subscription Successful!</h1>
+    <p>Thank you for subscribing to our {{selectedMembership?.planName}}</p>
+
+    <div class="details">
+        <p><strong>Order Number:</strong> #ORD123456</p>
+        <p><strong>Plan:</strong> {{selectedMembership?.planName}}</p>
+        <p><strong>Amount Paid:</strong> ${{selectedMembership?.price}}</p>
+        <p><strong>Start Date:</strong> {{today}}</p>
+    </div>
+
+    <a href="#" class="button">Go to Dashboard</a>
+</div>
