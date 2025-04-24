@@ -8,13 +8,13 @@ This is a sample screenshot of the app:
 
 ![App Screenshot](src/assets/screenshots/G1.png)
 <p align="center">
-  <img src="src/assets/screenshots/G1.png" alt="Img1" width="150" />
-  <img src="src/assets/screenshots/G2.png" alt="Img2" width="150" />
-  <img src="src/assets/screenshots/G3.png" alt="Img3" width="150" />
+  <img src="src/assets/screenshots/G1.png" alt="Img1" width="350" />
+  <img src="src/assets/screenshots/G2.png" alt="Img2" width="350" />
+  <img src="src/assets/screenshots/G3.png" alt="Img3" width="350" />
   <br />
-  <img src="src/assets/screenshots/G4.png" alt="Img4" width="150" />
-  <img src="src/assets/screenshots/G5.png" alt="Img5" width="150" />
-  <img src="src/assets/screenshots/G6.png" alt="Img6" width="150" />
+  <img src="src/assets/screenshots/G4.png" alt="Img4" width="350" />
+  <img src="src/assets/screenshots/G5.png" alt="Img5" width="350" />
+  <img src="src/assets/screenshots/G6.png" alt="Img6" width="350" />
 </p>
 
 
